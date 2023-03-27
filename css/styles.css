@@ -235,8 +235,10 @@ header {
 .mobile-menu-text-container {
   display: flex;
   flex-direction: column;
-  gap: 284px;
+  justify-content: space-between;
   padding: 80px 35px 40px 40px;
+  height: 100vh;
+  width: 100vw;
 }
 .mobile-menu-top-list {
   display: flex;
@@ -843,7 +845,7 @@ textarea {
 }
 
 .footer-input {
-  width: 398px;
+  width: 100%;
   height: 40px;
   background-color: transparent;
   border: 1px solid #ffffff;
