@@ -263,6 +263,7 @@ header {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #4d5ae5;
 }
 .mobile-menu-bot-list-item-email {
   font-weight: 500;
@@ -417,6 +418,9 @@ header {
   gap: 72px;
   align-items: center;
 }
+.footer-right {
+  width: 100%;
+}
 
 .footer-logo {
   color: var(--contacts-color-secondary);
@@ -429,6 +433,7 @@ header {
   display: flex;
   flex-direction: column-reverse;
   gap: 16px;
+  width: 100%;
 }
 
 .footer-text {
